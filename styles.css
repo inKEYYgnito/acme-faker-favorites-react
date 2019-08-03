@@ -1,4 +1,34 @@
-.favorite{
-   background-color: #ff9eb5;
-   color:white;
+* {
+  font-family: "Darker Grotesque", sans-serif;
+}
+
+.favorite {
+  background-color: #ff9eb5;
+  color: white;
+}
+
+h4 {
+  text-decoration: underline;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+div{
+   display: block
+}
+
+.list div {
+  border: solid 1px firebrick;
+  flex-direction: space-around; 
+  padding: 1rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
 }
